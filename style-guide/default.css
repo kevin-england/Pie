@@ -1,6 +1,5 @@
 .header {
-  background-image: url(https://diabloreporter.files.wordpress.com/2013/11/pie.jpg);
-  color: white;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   padding: 50px;
@@ -22,22 +21,42 @@
   margin: 200px;
   padding: 100px;
   text-align: center;
+  height: 100px;
+  width: 100px;
 }
 
-.img-hover {
-  position: relative;
-  display: inline-block;
-  margin-top: 50px;
-  margin-left: 400px;
-}
-.caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 0;
-  font-size: 18px;
+.color1 {
+  color: #8d7500;
+  background-color: #feda29;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin: 200px;
+  padding: 100px;
   text-align: center;
-  color: white;
-  background-color: rgba(0,0,0, 0.5);
+  height: 100px;
+  width: 100px;
+}
+
+.color2 {
+  color: #8d7500;
+  background-color: #ffe257;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin: 200px;
+  padding: 100px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+.color3 {
+  color: #8d7500;
+  background-color: #b69700;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin: 200px;
+  padding: 100px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
 }
