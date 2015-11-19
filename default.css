@@ -1,6 +1,35 @@
 .header {
+  background-color: #e28100;
+  border: solid;
+  border-color: #4e4e4e;
+  color: #4e4e4e;
+}
+
+.logo {
+  height: 90px;
+  width: 90px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.nav {
+  color: #4e4e4e;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  margin-top: 55px;
+  padding: 10px;
+}
+
+.nav:hover {
+  background-color: #;
+}
+
+.title {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
+  margin-top: 40px;
+  text-shadow: -1px 0 #ffe257, 0 1px #ffe257, 1px 0 #ffe257, 0 -1px #ffe257;
 }
 
 .feature1 {
