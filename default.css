@@ -22,7 +22,7 @@
 }
 
 .nav:hover {
-  background-color: #;
+  color: #ffe257;
 }
 
 .title {
@@ -30,6 +30,21 @@
   font-size: 50px;
   margin-top: 40px;
   text-shadow: -1px 0 #ffe257, 0 1px #ffe257, 1px 0 #ffe257, 0 -1px #ffe257;
+}
+
+.info {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-shadow: -1px 0 #ffe257, 0 1px #ffe257, 1px 0 #ffe257, 0 -1px #ffe257;
+}
+
+.box {
+  border: 3px solid #ffe257;
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 30px;
 }
 
 .feature1 {
@@ -40,10 +55,14 @@
 }
 
 .feature2 {
+  background-color: #e28100;
+  border: solid;
+  border-color: #4e4e4e;
+  color: #4e4e4e;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding: 50px;
+  text-align: center;
 }
 
 .feature3 {
