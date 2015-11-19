@@ -1,7 +1,6 @@
 .header {
   background-color: #e28100;
-  border: solid;
-  border-color: #4e4e4e;
+  border: 1px solid #4e4e4e;
   color: #4e4e4e;
 }
 
@@ -10,6 +9,15 @@
   width: 90px;
   margin-top: 10px;
   margin-right: 15px;
+}
+
+.logo1 {
+  height: 100px;
+  width: 100px;
+}
+
+.logo1:hover {
+  color: #ffe257;
 }
 
 .nav {
@@ -26,6 +34,7 @@
 }
 
 .title {
+  color: #4e4e4e;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   margin-top: 40px;
@@ -48,16 +57,14 @@
 }
 
 .feature1 {
+  background-color: #d8d8d8;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .feature2 {
   background-color: #e28100;
-  border: solid;
-  border-color: #4e4e4e;
+  border: 1px solid #4e4e4e;
   color: #4e4e4e;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -66,15 +73,16 @@
 }
 
 .feature3 {
+  background-color: #d8d8d8;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .footer {
+  background-color: #e28100;
+  border: solid;
+  border-color: #4e4e4e;
+  color: #4e4e4e;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
