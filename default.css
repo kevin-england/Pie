@@ -56,6 +56,11 @@
   padding: 30px;
 }
 
+.social {
+  font-size: 16px;
+  padding: 20px;
+}
+
 .feature1 {
   background-color: #d8d8d8;
   font-family: 'Raleway', sans-serif;
@@ -80,9 +85,9 @@
 
 .footer {
   background-color: #e28100;
-  border: solid;
-  border-color: #4e4e4e;
+  border: 1px solid #4e4e4e;
   color: #4e4e4e;
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 40px;
+  padding: 50px;
 }
