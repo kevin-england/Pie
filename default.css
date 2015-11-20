@@ -55,6 +55,22 @@
 .social {
   font-size: 16px;
   padding: 20px;
+  text-align: right;
+}
+
+.social1 {
+  color: #4e4e4e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-shadow: -1px 0 #ffe257, 0 1px #ffe257, 1px 0 #ffe257, 0 -1px #ffe257;
+}
+
+.map {
+  color: #4e4e4e;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: right;
 }
 
 .feature1 {
@@ -74,9 +90,11 @@
 }
 
 .feature3 {
-  background-color: #d8d8d8;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 20px;
 }
 
 .footer {
@@ -85,5 +103,6 @@
   color: #4e4e4e;
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
-  padding: 50px;
+  padding: 30px;
+  text-align: right;
 }
