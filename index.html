@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="default.css" type="text/css">
+    <link rel="stylesheet" href="css/default.css" type="text/css">
   </head>
   <body>
     <div class="header">
@@ -16,7 +16,7 @@
         <div class="row">
           <div class="col-md-2 col-md-offset-1">
             <a href="file:///Users/nicholeengland/Pie/index.html">
-              <img class="logo" src="drawing.png">
+              <img class="logo" src="images/drawing.png">
             </a>
           </div>
           <div class="col-md-5 col-md-offset-4">
@@ -42,19 +42,19 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="item active">
-                  <img class="img-responsive" src="pie2.jpg" alt="apple">
+                  <img class="img-responsive" src="images/pie2.jpg" alt="apple">
               </div>
               <div class="item">
-                <img class="img-responsive" src="pie4.jpg" alt="chocolate1">
+                <img class="img-responsive" src="images/pie4.jpg" alt="chocolate1">
               </div>
               <div class="item">
-                <img class="img-responsive" src="lime.jpg" alt="keylime">
+                <img class="img-responsive" src="images/lime.jpg" alt="keylime">
               </div>
               <div class="item">
-                <img class="img-responsive" src="pie3.jpg" alt="chocolate">
+                <img class="img-responsive" src="images/pie3.jpg" alt="chocolate">
               </div>
               <div class="item">
-                <img class="img-responsive" src="pie1.jpg" alt="pumpkin">
+                <img class="img-responsive" src="images/pie1.jpg" alt="pumpkin">
               </div>
               <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -87,7 +87,7 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="myModalLabel"><span class="orders">Pie'oneers Online Order Form</span></h4>
+                      <h4 class="modal-title" id="myModalLabel"><span class="orders">Pie'oneers Online<br>Order Form</span></h4>
                     </div>
                     <div class="modal-body">
                       <p>Select from one of our classics like our mouth-watering apple pie or get creative and choose from several of our delicious options!</p>
@@ -124,32 +124,39 @@
                       <br>
                       <fieldset>
                         <legend class="payment">Payment Options</legend> 
-                        <form action="file:///Users/nicholeengland/occs-three/week-one/thursday/exercise-twenty/index.html">
-                        <p>Please select from the following payment options:
-                          <br>
-                          <br>
-                          <input type="checkbox" name="experience" value="apple" checked="checked"> Apple
-                          <input type="checkbox" name="experience" value="cherry"> Cherry
-                          <input type="checkbox" name="experience" value="chocolate"> Chocolate
-                          <input type="checkbox" name="experience" value="peach"> Peach
-                          <input type="checkbox" name="experience" value="strawberry"> Strawberry
-                          <br>
-                          <input type="checkbox" name="experience" value="lime"> Keylime
-                          <input type="checkbox" name="experience" value="lemon"> Lemon
-                          <input type="checkbox" name="experience" value="raspberry"> Raspberry
-                          <input type="checkbox" name="experience" value="boysenberry"> Boysenberry
-                          <br>
-                          <input type="checkbox" name="experience" value="pumpkin"> Pumpkin
-                          <input type="checkbox" name="experience" value="banana"> Banana Cream
-                          <input type="checkbox" name="experience" value="pecan"> Pecan
-                          <input type="checkbox" name="experience" value="blackberry"> Blackberry
-                          <br>
-                          <input type="checkbox" name="experience" value="blueberry"> Blueberry
-                          <input type="checkbox" name="experience" value="pineapple"> Pineapple
-                          <input type="checkbox" name="experience" value="plum"> Plum
-                          <input type="checkbox" name="experience" value="date"> Dates
-                          <input type="checkbox" name="experience" value="mango"> Mango
-                        </p>
+                        <br>
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-3">
+                            <p>Please select from the following payment options:</p>
+                              <select name="languages">
+                                    <option value="visa">Visa</option> 
+                                    <option value="mastercard">Mastercard</option> 
+                                    <option value="amex">American Express</option>
+                                    <option value="discover">Discover</option>
+                                    <option value="paypal">Paypal - Other</option>
+                                  </select>
+                                  <br>
+                                  <br>
+                                  <textarea name="card" cols="20" rows="1" placeholder="Credit Card Number"></textarea>
+                                  <br>
+                                  <textarea name="expiration" cols="20" rows="1" placeholder="  Expiration Date"></textarea>
+                              <br>
+                            </div>
+                            <div class="col-md-3">
+                              <textarea name="name" cols="18" rows="1" placeholder="Full Name"></textarea>
+                              <br>
+                              <textarea name="address" cols="18" rows="1" placeholder="Address"></textarea>
+                              <br>
+                              <textarea name="city" cols="18" rows="1" placeholder="City"></textarea>
+                              <br>
+                              <textarea name="zip" cols="18" rows="1" placeholder="Zip Code"></textarea>
+                              <br>
+                              <textarea name="number" cols="18" rows="1" placeholder="Phone Number"></textarea>
+                              <br>
+                            </div>
+                          </div>
+                        </div>
                       </fieldset>
                     </div>
                     <div class="modal-footer">
@@ -173,7 +180,7 @@
           <div class="col-md-5">
             <h1 class="title1">Where We Are Located</h1>
             <a href="file:///Users/nicholeengland/Pie/index.html">
-              <img class="img-responsive" src="map.gif">
+              <img class="img-responsive" src="images/map.gif">
             </a>
           </div>
           <div class="col-md-2">
