@@ -75,6 +75,15 @@
   text-shadow: -1px 0 #ffe257, 0 1px #ffe257, 1px 0 #ffe257, 0 -1px #ffe257;
 }
 
+.press {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+#lady {
+  padding-right: 80px;
+}
+
 .info {
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
