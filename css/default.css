@@ -34,8 +34,8 @@
 
 .title1 {
   color: #4e4e4e;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 45px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
@@ -44,14 +44,15 @@
 
 .info {
   font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-  margin-bottom: 50px;
+  font-size: 70px;
+  margin-bottom: 15px;
   text-shadow: -1px 0 #ffe257, 0 1px #ffe257, 1px 0 #ffe257, 0 -1px #ffe257;
 }
 
 .info1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 30px;
+  font-size: 32px;
+  font-style: italic;
 }
 
 .box {
@@ -63,16 +64,15 @@
 }
 
 .social {
-  font-size: 16px;
-  padding: 20px;
+  font-size: 22px;
   text-align: right;
 }
 
 .social1 {
   color: #4e4e4e;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 47px;
+  margin-top: 40px;
   text-shadow: -1px 0 #ffe257, 0 1px #ffe257, 1px 0 #ffe257, 0 -1px #ffe257;
 }
 
@@ -82,6 +82,27 @@
 
 .social2:hover {
   color: #ffe257;
+}
+
+.social3 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  text-align: right;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 250px;
+  padding: 10px 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0, 0.3);
 }
 
 .map {
@@ -157,18 +178,4 @@
   font-size: 40px;
   padding: 30px;
   text-align: right;
-}
-
-.caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  margin-bottom: 250px;
-  padding: 10px 0;
-  font-family: 'Raleway', sans-serif;
-  font-size: 80px;
-  text-align: center;
-  color: white;
-  background-color: rgba(0,0,0, 0.3);
 }
