@@ -24,7 +24,7 @@
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   padding: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .footer {
@@ -161,12 +161,12 @@
 }
 
 #testimonial-one {
-  border-radius: 100px;
+  border-radius: 50px;
   margin-top: 50px;
 }
 
 #testimonial-two {
-  border-radius: 50px;
+  border-radius: 1000px;
   margin-left: 75px;
 }
 
@@ -177,13 +177,15 @@
 
 #quote {
   background-color: #e28100;
-  border: 1px solid #4e4e4e;
+  border: 1.5px solid #4e4e4e;
+  border-radius: 3px;
   margin-top: 150px;
 }
 
 #quote-one {
   background-color: #e28100;
-  border: 1px solid #4e4e4e;
+  border: 1.5px solid #4e4e4e;
+  border-radius: 3px;
   margin-top: 250px;
 }
 
