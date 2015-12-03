@@ -96,6 +96,7 @@
 
 #lady {
   padding-right: 80px;
+  opacity: 0.95;
 }
 
 .info {
@@ -164,16 +165,19 @@
 #testimonial-one {
   border-radius: 50px;
   margin-top: 50px;
+  opacity: 0.85;
 }
 
 #testimonial-two {
   border-radius: 1000px;
   margin-left: 75px;
+  opacity: 0.9;
 }
 
 #testimonial-three {
   border-radius: 75px;
   margin-bottom: 30px;
+  opacity: 0.85;
 }
 
 #quote {
