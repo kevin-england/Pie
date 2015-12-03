@@ -193,14 +193,14 @@
   background-color: #e28100;
   border: 1.5px solid #4e4e4e;
   border-radius: 3px;
-  margin-top: 250px;
+  margin-top: 300px;
 }
 
 .testimonial {
   border: 1px solid #ffe257;
   color: #4e4e4e;
   font-family: 'Raleway', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 20px;
   padding: 10px;
   text-align: left;
@@ -210,7 +210,7 @@
   border: 1px solid #ffe257;
   color: #4e4e4e;
   font-family: 'Raleway', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 20px;
   padding: 10px;
   text-align: right;
