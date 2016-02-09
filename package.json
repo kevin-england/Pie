@@ -1,0 +1,27 @@
+{
+  "name": "pie'oneers",
+  "version": "1.0.0",
+  "description": "A delivery service for pies",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-england/Pie.git"
+  },
+  "keywords": [
+    "pie"
+  ],
+  "author": "kevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin-england/Pie/issues"
+  },
+  "homepage": "https://github.com/kevin-england/Pie#readme"
+}
