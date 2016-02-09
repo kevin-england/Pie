@@ -5,4 +5,4 @@ app.use('/', express.static('public'));
 
 var port = process.env.PORT || 3000;
 app.listen(port);
-console.log('Alive on port 3000!')
+console.log('This is on port 3000!')
